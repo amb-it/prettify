@@ -1,0 +1,29 @@
+
+# Additional commands for bash
+
+# --------------------------------------------------------
+# to turn on these commands following code must be uncommented and inserted into the end of ~/.bashrc file:
+#
+#if [ -f ~/.bash_additional ]; then
+#    . ~/.bash_additional
+#fi
+
+# --------------------------------------------------------
+# add one empty line after each command (before each prompt)
+PS1="\n$PS1"
+
+# --------------------------------------------------------
+alias l='LC_COLLATE=C ls --color=auto --group-directories-first -Fh'
+alias la='l -A'
+alias ll='l -l'
+alias lla='l -Al'
+alias llat='l -Alt'
+
+# where:
+# LC_COLLATE=C    -- groups file names first with . , then UPPER case, then lower case etc.
+# -F              -- append indicator (one of */=>@|) to entries. Means add "/" to the end fo folder etc.
+# -h              -- with -l and/or -s, print human readable sizes (e.g., 1K 234M 2G)
+# -A              -- do not ignore entries starting with . (except . and ..)
+# -l              -- use a long listing format
+# -t              -- sort by modification time, newest first
+# -1              -- list one file per line
