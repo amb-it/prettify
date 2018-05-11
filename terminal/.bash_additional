@@ -1,5 +1,6 @@
 
-# Additional commands for bash
+# ADDITIONAL COMMANDS FOR BASH
+
 
 # --------------------------------------------------------
 # to turn on these commands following code must be uncommented and inserted into the end of ~/.bashrc file:
@@ -8,11 +9,16 @@
 #    . ~/.bash_additional
 #fi
 
+
+# ADD ONE EMPTY LINE AFTER EACH COMMAND (BEFORE EACH PROMPT)
 # --------------------------------------------------------
-# add one empty line after each command (before each prompt)
+
 PS1="\n$PS1"
 
+
+# PRETTY LIST FILES AND FOLDERS
 # --------------------------------------------------------
+
 alias l='LC_COLLATE=C ls --color=auto --group-directories-first -Fh'
 alias la='l -A'
 alias ll='l -l'
@@ -27,3 +33,18 @@ alias llat='l -Alt'
 # -l              -- use a long listing format
 # -t              -- sort by modification time, newest first
 # -1              -- list one file per line
+
+
+# GIT 
+# --------------------------------------------------------
+
+alias g="git"
+alias gh="git history --all -33"
+alias ghf="git history --all"
+
+alias gf="git fetch -p"
+alias gs="git status"
+alias gd="git diff"
+alias ga="git add ."
+alias gc="git commit"
+alias gp="git pull"

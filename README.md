@@ -11,7 +11,8 @@ enter in a terminal:
 ```
 git clone https://github.com/amb-it/prettify.git &&
 cd prettify &&
-cp .bash_additional ~/.bash_additional
+cp terminal/.bash_additional ~/.bash_additional &&
+cp terminal/gtk.css ~/.config/gtk-3.0/gtk.css
 ```
 - turn on .bash_additional (insert code below into the end of ~/.bashrc file):
 
