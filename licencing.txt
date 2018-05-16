@@ -1,0 +1,3 @@
+PHPStorm 2017
+    licence server:
+    https://my-ws-license.herokuapp.com/
