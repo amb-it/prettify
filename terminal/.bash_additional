@@ -16,6 +16,12 @@
 PS1="\n$PS1"
 
 
+# CLEAR TERMINAL
+# --------------------------------------------------------
+
+alias c='clear'
+
+
 # PRETTY LIST FILES AND FOLDERS
 # --------------------------------------------------------
 
@@ -39,7 +45,7 @@ alias llat='l -Alt'
 # --------------------------------------------------------
 
 alias g="git"
-alias gh="git history --all -33"
+alias gh="git status -s && echo '--------' && git history --all -30"
 alias ghf="git history --all"
 
 alias gf="git fetch -p"
