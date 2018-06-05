@@ -1,2 +1,2 @@
 [alias]
-	history = "log --pretty=format:'%C(green)%h %C(#ffaa00)%ad%C(reset) | %s %C(blue)[%an]%C(reset) %C(bold red)%d%C(reset)' --graph --date=short"
+	history = "log --pretty=format:'%C(green)%h %C(#ffaa00)%ad%C(reset) | %s %C(blue)[%an]%C(reset) %C(auto)%d%C(reset)' --graph --date=short"
