@@ -1,0 +1,4 @@
+
+if [ -f ~/.bash_additional ]; then
+    . ~/.bash_additional
+fi
