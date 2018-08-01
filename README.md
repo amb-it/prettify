@@ -14,7 +14,7 @@ git clone https://github.com/amb-it/prettify.git &&
 cd prettify/terminal &&
 cp gtk.css ~/.config/gtk-3.0/gtk.css &&
 cp .bash_additional ~/.bash_additional &&
-cat git_additional >> ~/.gitconfig
+cat git_additional >> ~/.gitconfig &&
 cat plug_bash_additional >> ~/.bashrc
 ```
 
