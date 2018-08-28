@@ -39,7 +39,7 @@ alias llat='l -Alt'
 # --------------------------------------------------------
 
 alias g="git"
-alias gh="clear && git status -s && echo '--------' && git history --all -30"
+alias gh="clear && git fetch -p && echo '--------' && git status -s && echo '--------' && git history --all -30"
 alias ghf="git history --all"
 
 alias gf="git fetch -p"
