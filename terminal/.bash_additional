@@ -53,3 +53,5 @@ alias gc="git commit"
 alias gch="git checkout"
 alias gr="git rebase"
 alias gp="git push"
+alias gpu="git push --set-upstream origin"
+
