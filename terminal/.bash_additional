@@ -35,7 +35,7 @@ alias llat='l -Alt'
 # -1              -- list one file per line
 
 
-# GIT 
+# GIT
 # --------------------------------------------------------
 
 alias g="git"
@@ -54,3 +54,8 @@ alias gch="git checkout"
 alias gr="git rebase"
 alias gpu="git push --set-upstream origin"
 
+
+# CLEAR DOCKER
+# --------------------------------------------------------
+
+alias cleardocker="docker network rm $(docker network ls -q) && docker image rm $(docker image ls -aq) && docker container rm $(docker container ls -aq)"
