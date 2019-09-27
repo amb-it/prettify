@@ -58,4 +58,4 @@ alias gpu="git push --set-upstream origin"
 # CLEAR DOCKER
 # --------------------------------------------------------
 
-alias cleardocker="docker network rm $(docker network ls -q) && docker image rm $(docker image ls -aq) && docker container rm $(docker container ls -aq)"
+alias cleardocker="docker network rm $(docker network ls -q); docker image rm $(docker image ls -aq); docker container rm $(docker container ls -aq)"
